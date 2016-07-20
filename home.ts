@@ -42,7 +42,7 @@ export class HomePage {
     doAlert() {
             let alert = Alert.create({
                 title: 'New Friend!',
-                subTitle: this.username,
+                subTitle: "",
                 buttons: ['OK']
             });
             this.navController.present(alert);
